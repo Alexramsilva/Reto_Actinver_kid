@@ -25,8 +25,12 @@ st.markdown("""
 # ==========================================
 # PANTALLA DE ACCESO
 # ==========================================
+st.markdown(
+    '<h1 style="color:#FFFFFF;">🔐 Acceso</h1>',
+    unsafe_allow_html=True
+)
 
-st.title("🔐 Acceso")
+# st.title("🔐 Acceso")
 
 clave = st.text_input(
     "Ingresa la clave de acceso:",
