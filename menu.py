@@ -44,7 +44,7 @@ if clave == CLAVE_ACCESO:
     st.title("Menú de enlaces")
 
     links = {
-        "App BMV (comprar o vender)": "https://scheduler-eqbyudcqtuurxkcxe8epvw.streamlit.app/",
+        "App BMV (comprar o vender)": "https://appbmv-f9igvhnh5sc7wjax66ukjs.streamlit.app/",
         "Análisis Financiero": "https://retoactinver-7ugnxpfgupkdufnskngbvg.streamlit.app/",
         "Simulación Monte Carlo individual" : "https://dr42zwffvmeo7pls3snkuv.streamlit.app/",
         "Portafolio Óptimo" : "https://portafolio-optimo-otqmf2ztv3f99wlwlhjkew.streamlit.app/",
