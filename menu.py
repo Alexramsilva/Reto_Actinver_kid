@@ -73,7 +73,7 @@ if clave == CLAVE_ACCESO:
     )
 
     st.markdown(
-        f"[Ir a {opcion}]({links[opcion]})",
+        f"[▶️ Ir a: {opcion}]({links[opcion]})",
         unsafe_allow_html=True
     )
 
