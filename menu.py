@@ -48,8 +48,12 @@ if clave == CLAVE_ACCESO:
     # ==========================================
     # MENÚ
     # ==========================================
+    st.markdown(
+    '<h1 style="color:#FFFFFF;">Menú de enlaces</h1>',
+    unsafe_allow_html=True
+    )
 
-    st.title("Menú de enlaces")
+    # st.title("Menú de enlaces")
 
     links = {
         "App BMV (comprar o vender)": "https://appbmv-f9igvhnh5sc7wjax66ukjs.streamlit.app/",
@@ -59,9 +63,12 @@ if clave == CLAVE_ACCESO:
         "Simulación Monte Carlo (en grupo" : "https://simulmc-kq7fbvqbafqnateomyp8qp.streamlit.app/",
         
     }
-
+    st.markdown(
+    '<h3 style="color:#FFFFFF;">Selecciona una opción</h3>',
+    unsafe_allow_html=True
+    )
     opcion = st.selectbox(
-        "Selecciona una opción:",
+        "",
         list(links.keys())
     )
 
