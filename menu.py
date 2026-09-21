@@ -31,9 +31,13 @@ st.markdown(
 )
 
 # st.title("🔐 Acceso")
+st.markdown(
+    '<h3 style="color:#FFFFFF;">Ingresa la clave de ingreso</h3>',
+    unsafe_allow_html=True
+)
 
 clave = st.text_input(
-    "Ingresa la clave de acceso:",
+    "",
     type="password"
 )
 
