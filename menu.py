@@ -6,7 +6,7 @@ import streamlit as st
 # CONFIGURACIÓN
 # ==========================================
 
-CLAVE_ACCESO = "Reto Actinver"   # <-- Cambia aquí la clave
+CLAVE_ACCESO = "UNRC"   # <-- Cambia aquí la clave
 
 # --- Personalización de diseño ---
 st.markdown("""
