@@ -62,6 +62,7 @@ if clave == CLAVE_ACCESO:
         "App VaR": "https://appvar-kj9zh5egahy4lfhwrkf732.streamlit.app/",
         "Portafolio Óptimo" : "https://portafolio-optimo-otqmf2ztv3f99wlwlhjkew.streamlit.app/",
         "Simulación Monte Carlo (en grupo)" : "https://simulmc-kq7fbvqbafqnateomyp8qp.streamlit.app/",
+        "Video sesión: Software aplicado al análisis bursátil" : "https://drive.google.com/file/d/1XYUcg3-IhsG5EUAh5F3o-KK9_H1Tbn1i/view?usp=sharing",
         
     }
     st.markdown(
